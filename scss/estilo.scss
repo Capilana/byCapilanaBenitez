@@ -1,0 +1,27 @@
+$letraTitulo: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+$letraTexto:Verdana, Geneva, Tahoma, sans-serif;
+$colorTitulo:blueviolet;
+
+
+@import "header";
+@import "main";
+@import "footer";
+@import "registro";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parrafo{
+    text-align: center;
+}
+.tarjetas{
+
+    display: flex;
+     align-items: center;
+     justify-content: center;
+    
+}

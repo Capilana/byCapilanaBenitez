@@ -1,0 +1,19 @@
+
+.sectorRegistro{
+    margin: 20px;
+    padding: 20px;
+   
+    .tituloFormulario{
+        color: $colorTitulo;
+        font-family: $letraTitulo;
+        font-size: 35px;
+        .cuadroRegistro{
+            font-family: $letraTexto;
+            padding: 20px;
+            margin: 30px;
+            text-align: center;
+           
+        }
+
+    } 
+  }

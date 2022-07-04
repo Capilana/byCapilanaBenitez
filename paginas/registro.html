@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de registro para recibir las actualizaciones más recientes en la web">
+    <meta name="keywords" content="Registro de ByCapilana- Registro de actualizaciones- Registro de comunidad">
+    <link rel="shortcut icon" href="../img/favicon-32x32.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Registrate con nosotros en By Capilana</title>
+</head>
+<body >
+      <header class="contenedor">
+        <nav class="navbar navbar-expand-lg p-2 m-3">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">By Capilana</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                  <a class="nav-link" href="./asesoria.html">Asesoría Personalizada</a>
+                  <a class="nav-link" href="./community.html">Community Manager</a>
+                  <a class="nav-link" href="./web.html">Tu primer sitió web</a>
+                  <a class="nav-link" href="./registro.html">Registrate</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>    
+    <main>
+        <section class="sectorRegistro">
+         
+         <h2 class="tituloFormulario">Formulario de registro</h2>
+         
+         <fieldset >
+             <form action="">
+                <div class="cuadroRegistro p-2 m-3">
+                  <div class="cajas p-2">
+                    <label for="Nombre">Completar con el nombre</label>
+                    <input type="text" name="nombre" placeholder="Mariela">
+                  </div>
+                 
+                  <div class="cajas p-2">
+                      <label for="Apellido">Completar con el apellido</label>
+                      <input type="text" name="Apellido" placeholder="Benitez">
+                    </div>
+                  <div class="cajas p-2" >
+                      <label for="email">Escribe tu mail</label>
+                      <input type="email" required placeholder="mariela_b@gmail.com">
+                  </div>
+                  <div class="cajas p-2">
+                      <label for="password">Escribe la contraseña</label>
+                      <input type="password" name="password" placeholder="escribe tu contraseña">
+                  </div>
+                  <div class="cajas p-2" >
+                      <label for="sexo">Genero</label><br>
+                      <input type="radio" name="sexo" value="Mujer">Mujer
+                      <input type="radio" name="sexo" value="Hombre">Hombre
+                      <input type="radio" name="sexo" value="Otro">Otro
+                  </div>
+                  <div class="cajas p-2" >
+                      <label for="país">Selecciona tu país</label>
+                      <select name="país" id="">
+                          <option value="arg">Argentina</option>
+                          <option value="uru">Uruguay</option>
+                          <option value="colo">Colombia</option>
+                          <option value="vene">Venezuela</option>
+                      </select>
+                  </div>
+                  <div class="cajas p-2" >
+                      <label for="birth">Fecha de nacimiento</label>
+                      <input name="birth" type="date">
+                  </div>
+                  <div class="cajas p-2" >
+                      <label for="Acepta">Acepta terminos y condiciones</label>
+                      <input type="checkbox" name="Acepta bases y condiciones " value="1">
+                  </div>
+                  <div class="cajas p-2">
+                      <label for="comentarios">Escribinos tus comentarios</label><br>
+                      <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+                  </div>
+                  <div class="cajas p-2">
+                      <input type="submit" value="enviar datos">
+                      <input type="reset" value="borrar datos">
+                  </div>
+                </div>
+            
+           
+        </form>
+        </fieldset>
+        </section>
+      </main>
+      <footer>
+        <div class="final">
+         <p class="p">Creador por By Capilana</p>
+        </div>
+        <div class="redesSociales">
+          <a href="https://ar.pinterest.com/" target="_blank"><img class="redes" src="../img/pinterest.png" alt="logo de pinterest"></a>
+          <a href="https://www.instagram.com/" target="_blank"><img class="redes" src="../img/instagram.png" alt="logo de instagram"></a>
+         <a href="https://ar.linkedin.com/" target="_blank"><img class="redes" src="../img/linkedin.png" alt="logo de linkedinn"></a>
+      </div>
+     </footer>
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
